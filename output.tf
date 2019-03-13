@@ -3,8 +3,8 @@ output "smtp_endpoint" {
 }
 
 output "smtp_key" {
-  value = "${aws_iam_access_key.test.id}"
+  value = "${aws_iam_access_key.sender.id}"
 }
 output "smtp_password" {
-  value = "${aws_iam_access_key.test.ses_smtp_password}"
+  value = "${aws_iam_access_key.sender.ses_smtp_password}"
 }

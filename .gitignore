@@ -1,3 +1,4 @@
 domain.tfvars
 terraform.tfstate*
 .terraform
+.DS_Store
