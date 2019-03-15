@@ -8,11 +8,6 @@ SORACOM Beam provides some protocol conversions, In this document shows an examp
 
 This document shows TCP to TLS conversion usecase in mail delivery senario.
 
-!! IMPORTANT !!
----------------
-SORACOM Beam TCP to TLS proxy makes simple TLS offload, does not reassembled. If application payload less than MTU you can use any application protocols and may works.
-But payload size larger than MTU, It may occuor application error because SORACOM Beam TCP proxy splits the payload into MTU size.
-
 Send email by Amazon SES and SORACOM Beam
 -----------------------------------------
 
